@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: ce6bbafcc49c52945a6c8c1daf3b1b82
 AssetOrigin:
   serializedVersion: 1
@@ -24,3 +25,6 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+guid: f761b0a15dd8c804895fb99c13a18dd3
+>>>>>>> Stashed changes
