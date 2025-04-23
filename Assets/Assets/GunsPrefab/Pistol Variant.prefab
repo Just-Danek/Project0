@@ -1129,6 +1129,86 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   firePoint: {fileID: 2089948566737513269}
+  LeftTrigger:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ca1654e7-1d27-4f1b-8cb7-1f8b5102f837
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: a53e0805-1d40-4af7-aad0-b6d50216ce92
+        m_Path: <XRController>{LeftHand}/trigger
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Left Trigger
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  RightTrigger:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e033478f-137d-4dbe-a147-3a9c8c6e9aaf
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 425b2416-7c03-4908-9b3b-eaa68538994c
+        m_Path: <XRController>{RightHand}/trigger
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Right Trigger
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  LeftGrip:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Grip
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 92af3843-0e41-468d-80b1-6eef691d3a4a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: b4f882ca-0772-4f43-8ce9-c502bcb27c21
+        m_Path: <XRController>{LeftHand}/{Grip}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Left Grip
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  RightGrip:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Grip
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e3e147b3-0f68-4f86-93bf-a01fac8ce629
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 0cce492c-2308-4a2b-aae1-f783af58b7d9
+        m_Path: <XRController>{RightHand}/{Grip}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Right Grip
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   audioSource: {fileID: 6646660256364381031}
   shotSound: {fileID: 8300000, guid: 58a044b940eb1de4b979e8c7807ec569, type: 3}
   enemyTag: Enemy
