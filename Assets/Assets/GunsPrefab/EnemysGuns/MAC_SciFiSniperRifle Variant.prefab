@@ -761,7 +761,6 @@ MonoBehaviour:
   grabInteractable: {fileID: 6498384536326682541}
   maxAmmo: 999999
   currentAmmo: 999999
-  magazineSocket: {fileID: 0}
   IsCharged: 1
   emptyMagazinePrefab: {fileID: 0}
   ejectPoint: {fileID: 0}
@@ -806,6 +805,54 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   firePoint: {fileID: 1898357385084767562}
+  LeftTrigger:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 267be4a2-5658-4af3-ad70-b2a72c21ed08
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  RightTrigger:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Trigger
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2b64a414-30d8-471b-925d-46f03ecae7f2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  LeftGrip:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Grip
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 45a5a58f-20e3-41de-84fe-7df7bd7a50f5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  RightGrip:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Grip
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 1e1016dd-382a-4223-9f54-8195569e260b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   audioSource: {fileID: 7689798941167437589}
   shotSound: {fileID: 8300000, guid: 08f78eba48bb21c44ac5a74ca84efc83, type: 3}
   enemyTag: Enemy
