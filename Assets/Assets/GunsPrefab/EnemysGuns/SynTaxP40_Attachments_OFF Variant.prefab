@@ -650,16 +650,11 @@ PrefabInstance:
       addedObject: {fileID: 360455242940207004}
     - targetCorrespondingSourceObject: {fileID: 1580850514056834, guid: 619e6cf2df6b6134081a14e063da5e79, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5878994065861404942}
+      addedObject: {fileID: 7317272067885142831}
     - targetCorrespondingSourceObject: {fileID: 1580850514056834, guid: 619e6cf2df6b6134081a14e063da5e79, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7317272067885142831}
+      addedObject: {fileID: -6758909092862498530}
   m_SourcePrefab: {fileID: 100100000, guid: 619e6cf2df6b6134081a14e063da5e79, type: 3}
---- !u!1 &3698104390665235584 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1107296566792242, guid: 619e6cf2df6b6134081a14e063da5e79, type: 3}
-  m_PrefabInstance: {fileID: 3697914121156541618}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3698647763559049776 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1580850514056834, guid: 619e6cf2df6b6134081a14e063da5e79, type: 3}
@@ -825,69 +820,6 @@ MonoBehaviour:
   m_FarAttachMode: 1
   rightHandAttachTransform: {fileID: 7787924975798080520}
   leftHandAttachTransform: {fileID: 7855468078183067486}
---- !u!114 &5878994065861404942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3698647763559049776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36453366e8f7c904a9ea3368e2b62eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabInteractable: {fileID: 360455242940207004}
-  maxAmmo: 999999
-  currentAmmo: 999999
-  magazineSocket: {fileID: 0}
-  IsCharged: 1
-  emptyMagazinePrefab: {fileID: 7556497267399492137, guid: 27856f3a46f646f4b91c10fad223fc43, type: 3}
-  ejectPoint: {fileID: 6283150202191884273}
-  internalMagazineModel: {fileID: 3698104390665235584}
-  movablePart: {fileID: 0}
-  recoilDistance: 0
-  recoilDuration: 0
-  fireRate: 4
-  damage: 30
-  range: 100
-  laserEnabled: 1
-  laserLine: {fileID: 5424726548000850431}
-  muzzleFlash: {fileID: 8345248147798003121}
-  muzzleLight: {fileID: 3383060954756426613}
-  lightDuration: 0.05
-  triggerAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Trigger
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 1e03b862-46ac-41c8-8f7d-d8a9990ee175
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: b1898675-40ac-4f39-81d1-4863fcb54f8c
-        m_Path: <XRController>{LeftHand}/trigger
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Trigger
-        m_Flags: 0
-      - m_Name: 
-        m_Id: 0035fcc9-8491-4886-8315-fe2adec6d98e
-        m_Path: <XRController>{RightHand}/trigger
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Trigger
-        m_Flags: 0
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  firePoint: {fileID: 5655446149366556099}
-  audioSource: {fileID: 102623390724392431}
-  shotSound: {fileID: 8300000, guid: f743eea9193f018468ee40fbd8354482, type: 3}
-  enemyTag: Enemy
 --- !u!65 &7317272067885142831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -909,6 +841,36 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.05381963, y: 0.13889241, z: 0.12778947}
   m_Center: {x: 0.0010200925, y: 0.030492187, z: 0.008136075}
+--- !u!114 &-6758909092862498530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3698647763559049776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15184016adf483f4eb737b57815ad368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxAmmo: 999999
+  currentAmmo: 999999
+  IsCharged: 1
+  movablePart: {fileID: 0}
+  recoilDistance: 0.2
+  recoilDuration: 0.1
+  fireRate: 0
+  damage: 0
+  range: 100
+  laserEnabled: 1
+  laserLine: {fileID: 5424726548000850431}
+  muzzleFlash: {fileID: 8345248147798003121}
+  muzzleLight: {fileID: 3383060954756426613}
+  lightDuration: 0.05
+  firePoint: {fileID: 6283150202191884273}
+  audioSource: {fileID: 102623390724392431}
+  shotSound: {fileID: 8300000, guid: f743eea9193f018468ee40fbd8354482, type: 3}
+  enemyTag: 
 --- !u!4 &3701690615358802530 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4131198409668304, guid: 619e6cf2df6b6134081a14e063da5e79, type: 3}

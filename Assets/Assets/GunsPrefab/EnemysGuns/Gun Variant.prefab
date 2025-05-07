@@ -596,7 +596,7 @@ PrefabInstance:
       addedObject: {fileID: 9034672699542626264}
     - targetCorrespondingSourceObject: {fileID: 3832703582600972128, guid: bceefb2a39f6db74d9bc9d006687b7f1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3663827142986176151}
+      addedObject: {fileID: 4974252736693373902}
   m_SourcePrefab: {fileID: 100100000, guid: bceefb2a39f6db74d9bc9d006687b7f1, type: 3}
 --- !u!4 &2645885560542650993 stripped
 Transform:
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_FarAttachMode: 1
   rightHandAttachTransform: {fileID: 7060659129563189789}
   leftHandAttachTransform: {fileID: 7568864165630719203}
---- !u!114 &3663827142986176151
+--- !u!114 &4974252736693373902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -777,20 +777,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2645885560542821969}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36453366e8f7c904a9ea3368e2b62eea, type: 3}
+  m_Script: {fileID: 11500000, guid: 15184016adf483f4eb737b57815ad368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 9034672699542626264}
   maxAmmo: 999999
   currentAmmo: 999999
-  magazineSocket: {fileID: 0}
   IsCharged: 1
-  emptyMagazinePrefab: {fileID: 0}
-  ejectPoint: {fileID: 0}
-  internalMagazineModel: {fileID: 0}
   movablePart: {fileID: 0}
-  recoilDistance: 0
-  recoilDuration: 0
+  recoilDistance: 0.2
+  recoilDuration: 0.1
   fireRate: 5
   damage: 10
   range: 100
@@ -799,38 +795,10 @@ MonoBehaviour:
   muzzleFlash: {fileID: 8695830949667312906}
   muzzleLight: {fileID: 296321456969786392}
   lightDuration: 0.05
-  triggerAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Trigger
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 3cfe7241-4679-4e42-89fb-96c1abb8e4c7
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: d570a280-c5ab-4321-9fb4-a329cd96e8ff
-        m_Path: <XRController>{LeftHand}/trigger
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Trigger
-        m_Flags: 0
-      - m_Name: 
-        m_Id: 5d377e8a-becd-4c3e-889c-3b8e634da7cd
-        m_Path: <XRController>{RightHand}/trigger
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Trigger
-        m_Flags: 0
-      m_Flags: 0
-    m_Reference: {fileID: 0}
   firePoint: {fileID: 4023040883873868479}
   audioSource: {fileID: 2380417104592084506}
   shotSound: {fileID: 8300000, guid: 92d35fe1c59bbd14eaee9e3d3b54cea7, type: 3}
-  enemyTag: Enemy
+  enemyTag: 
 --- !u!4 &7060659129563189789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8103362685368445740, guid: bceefb2a39f6db74d9bc9d006687b7f1, type: 3}

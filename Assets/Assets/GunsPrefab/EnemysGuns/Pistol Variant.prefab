@@ -805,10 +805,10 @@ PrefabInstance:
       addedObject: {fileID: 1267035403428613244}
     - targetCorrespondingSourceObject: {fileID: 4043241439066821443, guid: 726cd21416e138640a4f2575ffe04009, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3546567873882155452}
+      addedObject: {fileID: 7813358431848154821}
     - targetCorrespondingSourceObject: {fileID: 4043241439066821443, guid: 726cd21416e138640a4f2575ffe04009, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7813358431848154821}
+      addedObject: {fileID: 3621346194217779151}
   m_SourcePrefab: {fileID: 100100000, guid: 726cd21416e138640a4f2575ffe04009, type: 3}
 --- !u!4 &110887359976107746 stripped
 Transform:
@@ -823,11 +823,6 @@ Transform:
 --- !u!4 &1165683500184024347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3699612562426939897, guid: 726cd21416e138640a4f2575ffe04009, type: 3}
-  m_PrefabInstance: {fileID: 2556633852836019426}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1704594362841621561 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3809222279368906971, guid: 726cd21416e138640a4f2575ffe04009, type: 3}
   m_PrefabInstance: {fileID: 2556633852836019426}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1704594363839395900 stripped
@@ -1069,69 +1064,6 @@ MonoBehaviour:
   m_FarAttachMode: 1
   rightHandAttachTransform: {fileID: 1162694622339555187}
   leftHandAttachTransform: {fileID: 110887359976107746}
---- !u!114 &3546567873882155452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974413213117247393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36453366e8f7c904a9ea3368e2b62eea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabInteractable: {fileID: 1267035403428613244}
-  maxAmmo: 999999
-  currentAmmo: 999999
-  magazineSocket: {fileID: 0}
-  IsCharged: 1
-  emptyMagazinePrefab: {fileID: 5961424690434214311, guid: 6e73917346a8e9b4a9838399ae93194c, type: 3}
-  ejectPoint: {fileID: 6151547630238904674}
-  internalMagazineModel: {fileID: 1704594362841621561}
-  movablePart: {fileID: 1704594363839395900}
-  recoilDistance: 0.2
-  recoilDuration: 0.1
-  fireRate: 2
-  damage: 10
-  range: 100
-  laserEnabled: 1
-  laserLine: {fileID: 2855376385187790462}
-  muzzleFlash: {fileID: 1710448422620365296}
-  muzzleLight: {fileID: 6882718936322355319}
-  lightDuration: 0.05
-  triggerAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Trigger
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: fa8d0c61-5377-4596-891b-3ec370bfe6e2
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: 8b7eb8e3-ec8b-471d-b3cc-e48763c7ed92
-        m_Path: <XRController>{LeftHand}/trigger
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Trigger
-        m_Flags: 0
-      - m_Name: 
-        m_Id: ace1dccd-39a2-4b8a-bc5e-c9653ca03fb6
-        m_Path: <XRController>{RightHand}/trigger
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Trigger
-        m_Flags: 0
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  firePoint: {fileID: 2089948566737513269}
-  audioSource: {fileID: 6646660256364381031}
-  shotSound: {fileID: 8300000, guid: 58a044b940eb1de4b979e8c7807ec569, type: 3}
-  enemyTag: Enemy
 --- !u!65 &7813358431848154821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1153,3 +1085,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.22294115, y: 0.12443165, z: 0.2309601}
   m_Center: {x: -0.0022699707, y: -0.18271555, z: -0.046229724}
+--- !u!114 &3621346194217779151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974413213117247393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15184016adf483f4eb737b57815ad368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 1267035403428613244}
+  maxAmmo: 9999999
+  currentAmmo: 9999999
+  IsCharged: 1
+  movablePart: {fileID: 1704594363839395900}
+  recoilDistance: 0.2
+  recoilDuration: 0.1
+  fireRate: 2
+  damage: 10
+  range: 100
+  laserEnabled: 1
+  laserLine: {fileID: 2855376385187790462}
+  muzzleFlash: {fileID: 1710448422620365296}
+  muzzleLight: {fileID: 6882718936322355319}
+  lightDuration: 0.05
+  firePoint: {fileID: 2089948566737513269}
+  audioSource: {fileID: 6646660256364381031}
+  shotSound: {fileID: 8300000, guid: 58a044b940eb1de4b979e8c7807ec569, type: 3}
+  enemyTag: 
