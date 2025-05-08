@@ -76,8 +76,6 @@ GameObject:
   - component: {fileID: 8866808576704656437}
   - component: {fileID: 1134295164045407043}
   - component: {fileID: 6657747161562764192}
-  - component: {fileID: 2893228767213494298}
-  - component: {fileID: 2487091492960217130}
   - component: {fileID: 4487467871210721735}
   - component: {fileID: -7293331801734629134}
   m_Layer: 0
@@ -95,8 +93,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3270474455101456781}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 284.79974, y: 220.55, z: 10.384271}
+  m_LocalRotation: {x: -0.01560034, y: -0.91498965, z: 0.06785412, w: 0.39742476}
+  m_LocalPosition: {x: -72.350296, y: 35.44127, z: 38.687466}
   m_LocalScale: {x: 0.5, y: 0.75, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -177,45 +175,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.11244459, y: 1.3029116, z: 0.13599144}
   m_Center: {x: 0, y: 0.3686324, z: 0.011773415}
---- !u!54 &2893228767213494298
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3270474455101456781}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2487091492960217130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3270474455101456781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5db56a003d8b5e24c9d225cfefd8e1cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &4487467871210721735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -235,8 +194,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.14758301, y: 1.3207669, z: 0.16848755}
-  m_Center: {x: -0.001159668, y: 0.37756008, z: -0.0020065308}
+  m_Size: {x: 0.14758301, y: 1.4524686, z: 0.16848755}
+  m_Center: {x: -0.0011603212, y: 0.44340608, z: -0.0020064989}
 --- !u!114 &-7293331801734629134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 30
-  damageCooldown: 1
+  damageCooldown: 2
 --- !u!1 &8211486056794815761
 GameObject:
   m_ObjectHideFlags: 0

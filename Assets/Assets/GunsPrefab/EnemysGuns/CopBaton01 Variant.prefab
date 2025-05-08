@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 6365115875318222070}
   - component: {fileID: 8386638299299643243}
   - component: {fileID: 9056002529132230170}
-  - component: {fileID: 7136749264242163239}
-  - component: {fileID: 3300316568489478654}
   - component: {fileID: 8029930690196246849}
   - component: {fileID: -79945727650591779}
   m_Layer: 0
@@ -113,45 +111,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07496434, y: 0.9085165, z: 0.07943964}
   m_Center: {x: -0.0000083966315, y: 0.32873043, z: -0.00030794885}
---- !u!54 &7136749264242163239
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3230107648890869866}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &3300316568489478654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3230107648890869866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5db56a003d8b5e24c9d225cfefd8e1cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &8029930690196246849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -171,8 +130,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.10560516, y: 0.9331083, z: 0.109831646}
-  m_Center: {x: -0.0013222785, y: 0.34096536, z: 0.0053459937}
+  m_Size: {x: 0.10560516, y: 1.0294251, z: 0.109831646}
+  m_Center: {x: -0.0013282066, y: 0.38912457, z: 0.005345623}
 --- !u!114 &-79945727650591779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 20
-  damageCooldown: 0.5
+  damageCooldown: 2
 --- !u!1 &4906339536066462408
 GameObject:
   m_ObjectHideFlags: 0

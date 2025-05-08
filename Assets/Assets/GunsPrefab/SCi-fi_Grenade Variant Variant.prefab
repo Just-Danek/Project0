@@ -223,6 +223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SCi-fi_Grenade Variant Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5819818904838830069, guid: f57a0ecc4dc390949b387c2f231d0a87, type: 3}
+      propertyPath: m_TagString
+      value: Ammo
+      objectReference: {fileID: 0}
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
