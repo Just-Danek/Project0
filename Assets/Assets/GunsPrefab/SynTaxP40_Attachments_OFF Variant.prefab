@@ -840,7 +840,6 @@ MonoBehaviour:
   grabInteractable: {fileID: 360455242940207004}
   maxAmmo: 15
   currentAmmo: 15
-  magazineSocket: {fileID: 0}
   IsCharged: 1
   emptyMagazinePrefab: {fileID: 7556497267399492137, guid: 27856f3a46f646f4b91c10fad223fc43, type: 3}
   ejectPoint: {fileID: 6283150202191884273}
@@ -967,6 +966,10 @@ MonoBehaviour:
     m_Reference: {fileID: 0}
   audioSource: {fileID: 102623390724392431}
   shotSound: {fileID: 8300000, guid: f743eea9193f018468ee40fbd8354482, type: 3}
+  hitEffectPrefabDust: {fileID: 7696382627074872733, guid: 5f32a5a981b61c34b8444fd835fa2650, type: 3}
+  hitEffectPrefabSparks: {fileID: 6681638757615295765, guid: 5f67d02cf195e044ba2556797dd27353, type: 3}
+  hitEffectLifetime: 2
+  effectOffset: 0.01
   enemyTag: Enemy
 --- !u!65 &7317272067885142831
 BoxCollider:

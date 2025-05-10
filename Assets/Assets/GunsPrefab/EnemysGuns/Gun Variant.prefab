@@ -780,7 +780,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15184016adf483f4eb737b57815ad368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabInteractable: {fileID: 9034672699542626264}
   maxAmmo: 999999
   currentAmmo: 999999
   IsCharged: 1
@@ -790,6 +789,7 @@ MonoBehaviour:
   fireRate: 5
   damage: 10
   range: 100
+  spreadAngle: 15
   laserEnabled: 1
   laserLine: {fileID: 3293506427541521774}
   muzzleFlash: {fileID: 8695830949667312906}
@@ -798,6 +798,10 @@ MonoBehaviour:
   firePoint: {fileID: 4023040883873868479}
   audioSource: {fileID: 2380417104592084506}
   shotSound: {fileID: 8300000, guid: 92d35fe1c59bbd14eaee9e3d3b54cea7, type: 3}
+  hitEffectPrefabDust: {fileID: 7696382627074872733, guid: 5f32a5a981b61c34b8444fd835fa2650, type: 3}
+  hitEffectPrefabSparks: {fileID: 6681638757615295765, guid: 5f67d02cf195e044ba2556797dd27353, type: 3}
+  hitEffectLifetime: 2
+  effectOffset: 0.01
   enemyTag: 
 --- !u!4 &7060659129563189789 stripped
 Transform:

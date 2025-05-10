@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7533398584661509081}
   - component: {fileID: 1182078293344523635}
   - component: {fileID: -969030788995759029}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EmptyMagazineP40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
