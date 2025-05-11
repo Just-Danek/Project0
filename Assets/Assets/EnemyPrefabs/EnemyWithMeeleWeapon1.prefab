@@ -576,6 +576,7 @@ MonoBehaviour:
   animator: {fileID: 3762085255217894850}
   agent: {fileID: 5356669319681518237}
   player: {fileID: 0}
+  playerHead: {fileID: 0}
   obstructionMask:
     serializedVersion: 2
     m_Bits: 8
@@ -586,7 +587,7 @@ MonoBehaviour:
   radiusInfection: 12
   drawOverview: 1
   drawRadiusInfection: 0
-  attackDistance: 1.6
+  attackDistance: 2
   isWeapon: 1
   infection: 1
   timeIdle: 10
@@ -595,6 +596,7 @@ MonoBehaviour:
   isAgroFromInfection: 0
   isTakeDamage: 0
   controller: {fileID: 0}
+  basicAngle: 0
 --- !u!114 &4547247869090009788
 MonoBehaviour:
   m_ObjectHideFlags: 0
