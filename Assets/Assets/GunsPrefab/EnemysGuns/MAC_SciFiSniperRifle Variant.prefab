@@ -765,7 +765,7 @@ MonoBehaviour:
   recoilDistance: 0
   recoilDuration: 0
   fireRate: 3
-  damage: 15
+  damage: 40
   range: 100
   spreadAngle: 5
   laserEnabled: 1
