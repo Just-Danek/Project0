@@ -1212,7 +1212,7 @@ MonoBehaviour:
   shotSound: {fileID: 8300000, guid: 58a044b940eb1de4b979e8c7807ec569, type: 3}
   hitEffectPrefabDust: {fileID: 7696382627074872733, guid: 5f32a5a981b61c34b8444fd835fa2650, type: 3}
   hitEffectPrefabSparks: {fileID: 6681638757615295765, guid: 5f67d02cf195e044ba2556797dd27353, type: 3}
-  hitEffectLifetime: 2
+  hitEffectLifetime: 1
   effectOffset: 0.01
   enemyTag: Enemy
 --- !u!65 &7813358431848154821
