@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5729083421026755124}
   - component: {fileID: 3547804613264114700}
   - component: {fileID: 2055561627569683389}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: FullMagazineP40
   m_TagString: Ammo
   m_Icon: {fileID: 0}

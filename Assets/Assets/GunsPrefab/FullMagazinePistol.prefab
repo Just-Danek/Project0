@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8275757283893329539}
   - component: {fileID: -430961421613295797}
   - component: {fileID: 3056991172302549018}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: FullMagazinePistol
   m_TagString: Ammo
   m_Icon: {fileID: 0}
