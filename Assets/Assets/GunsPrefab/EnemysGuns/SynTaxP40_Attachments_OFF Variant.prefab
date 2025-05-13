@@ -860,15 +860,15 @@ MonoBehaviour:
   recoilDistance: 0.2
   recoilDuration: 0.1
   fireRate: 0
-  damage: 0
+  damage: 65
   range: 100
-  spreadAngle: 5
+  spreadAngle: 9
   laserEnabled: 1
   laserLine: {fileID: 5424726548000850431}
   muzzleFlash: {fileID: 8345248147798003121}
   muzzleLight: {fileID: 3383060954756426613}
   lightDuration: 0.05
-  firePoint: {fileID: 6283150202191884273}
+  firePoint: {fileID: 5655446149366556099}
   audioSource: {fileID: 102623390724392431}
   shotSound: {fileID: 8300000, guid: f743eea9193f018468ee40fbd8354482, type: 3}
   hitEffectPrefabDust: {fileID: 7696382627074872733, guid: 5f32a5a981b61c34b8444fd835fa2650, type: 3}

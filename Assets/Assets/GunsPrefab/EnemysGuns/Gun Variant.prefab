@@ -787,9 +787,9 @@ MonoBehaviour:
   recoilDistance: 0.2
   recoilDuration: 0.1
   fireRate: 5
-  damage: 10
+  damage: 30
   range: 100
-  spreadAngle: 5
+  spreadAngle: 9
   laserEnabled: 1
   laserLine: {fileID: 3293506427541521774}
   muzzleFlash: {fileID: 8695830949667312906}

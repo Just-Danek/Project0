@@ -471,8 +471,8 @@ MonoBehaviour:
   movablePart: {fileID: 0}
   recoilDistance: 0
   recoilDuration: 0
-  fireRate: 0.8
-  damage: 45
+  fireRate: 1.6
+  damage: 90
   range: 100
   laserEnabled: 1
   laserLine: {fileID: 8105127287923883485}
