@@ -1107,7 +1107,7 @@ MonoBehaviour:
   damage: 30
   range: 100
   spreadAngle: 9
-  laserEnabled: 1
+  laserEnabled: 0
   laserLine: {fileID: 2855376385187790462}
   muzzleFlash: {fileID: 1710448422620365296}
   muzzleLight: {fileID: 6882718936322355319}
